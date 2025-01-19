@@ -73,8 +73,8 @@
     font-size: 1rem;
     color: #ffffff;
     max-width: 670px;
-    margin: 0 auto;
     margin-bottom: 30px;
+    opacity: 50%;
 }
 
 .container, .nav, .banner{
@@ -145,18 +145,6 @@ header{
     margin-bottom: 25px;
 }
 
-/* .banner-badge-video-tuto, .banner-badge-workout-vedio{
-    width: 206px;
-    background-color: #303030;
-    opacity: 54%;
-    padding: 25px 24px;
-    border-radius: 10px;
-}
-
-.banner-badge-video-tuto{
-    margin-top: -150px;
-} */
-
 /* Main Section Styles */
 main{
     background-color: #000;
@@ -171,9 +159,14 @@ main > section{
     text-align: center;
 }
 
+.habits .section-description{
+    margin: 0 auto;
+}
+
 .habit-contents{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
     margin-top: 50px;
 }
 
@@ -191,4 +184,22 @@ main > section{
 
 .habit-description{
     opacity: 50%;
+}
+
+/* Run an Extra Mile Easily Section Styles */
+.run-container{
+    background-color: #222222;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.run-contents{
+    max-width: 450px;
+}
+
+.run-profile{
+    width: 366px;
+    height: 312px;
+    border-radius: 20px;
 }
