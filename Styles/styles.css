@@ -27,6 +27,10 @@
     margin: 0;
 }
 
+input[type=text], input[type=number], select{
+    outline: 0;
+}
+
 .display-flex{
     display: flex;
 }
@@ -151,7 +155,7 @@ main{
 }
 
 main > section{
-    padding-top: 100px;
+    padding: 100px 0;
 }
 
 /* Habits Section Styles */
@@ -191,7 +195,7 @@ main > section{
     background-color: #222222;
     justify-content: space-between;
     padding: 50px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .run-contents{
@@ -203,3 +207,89 @@ main > section{
     height: 312px;
     border-radius: 20px;
 }
+
+/* BMI Calculator Section Styles */
+.bmi-section-header{
+    max-width: 670px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.bmi{
+    background-color: #222222;
+    padding: 100px 0;
+}
+
+.bmi-container{
+    justify-content: space-between;
+}
+
+.bmi-title{
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.bmi-description{
+    opacity: 50%;
+}
+
+table, th, td{
+    margin-top: 20px;
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+    text-align: start;
+    padding: 15px;
+    width: 310px;
+}
+
+table, th{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+table td{
+    opacity: 50%;
+}
+
+.bmi-calculation{
+    max-width: 674px;
+}
+
+.bmi-form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.form-row{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group select,
+.full-width{
+    width: 300px;
+    background-color: #383838;
+    border: 0;
+    padding: 15px 10px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.form-group input::placeholder{
+    color: #ffffff;
+}
+
+.full-width{
+    width: 100%;
+}
+
+
+
+
+
