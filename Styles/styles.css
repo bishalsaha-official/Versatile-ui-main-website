@@ -27,7 +27,7 @@
     margin: 0;
 }
 
-input[type=text], input[type=number], select{
+input[type=text]:focus, input[type=number]:focus, select{
     outline: 0;
 }
 
@@ -209,7 +209,7 @@ main > section{
 }
 
 /* BMI Calculator Section Styles */
-.bmi-section-header{
+.bmi-section-header, .team-section-header{
     max-width: 670px;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -288,6 +288,34 @@ table td{
 .full-width{
     width: 100%;
 }
+
+/* Team Section Styles */
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #222222;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.team-profile{
+    width: 326px;
+    height: 272px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.team-item-title{
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.team-designation{
+    opacity: 50%;
+}
+
 
 
 
