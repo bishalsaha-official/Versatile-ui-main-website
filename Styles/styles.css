@@ -14,7 +14,7 @@
     font-style: normal;
 }
   
-  .oleo-script-bold{
+.oleo-script-bold{
     font-family: "Oleo Script", serif;
     font-weight: 700;
     font-style: normal;
@@ -74,19 +74,20 @@
     color: #ffffff;
     max-width: 670px;
     margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.container, .nav, .banner{
+    max-width: 1060px;
+    margin: 0 auto;
 }
 
 /* Header Section Styles */
 header{
-    background-image: linear-gradient(#000, rgba(0, 0, 0, 0.852));
+    background: linear-gradient(#000, rgba(0, 0, 0, 0.852));
 }
 
 /* Nav Section Styles */
-.nav, .banner{
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 .nav-brand{
     font-size: 2.25rem;
     font-weight: 800;
@@ -155,3 +156,39 @@ header{
 .banner-badge-video-tuto{
     margin-top: -150px;
 } */
+
+/* Main Section Styles */
+main{
+    background-color: #000;
+}
+
+main > section{
+    padding-top: 100px;
+}
+
+/* Habits Section Styles */
+.habits{
+    text-align: center;
+}
+
+.habit-contents{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+}
+
+.habit-profile{
+    border: 5px solid #191919;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.habit-title{
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.habit-description{
+    opacity: 50%;
+}
