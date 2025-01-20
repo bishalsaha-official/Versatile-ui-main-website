@@ -132,6 +132,11 @@ header{
     transition: .2s;
 }
 
+.menu-bar{
+    font-size: 2rem;
+    display: none;
+}
+
 /* Banner Section Styles */
 .banner{
     justify-content: space-between;
@@ -150,6 +155,39 @@ header{
 
 .banner-description{
     margin-bottom: 25px;
+}
+
+.banner-profiles{
+    position: relative;
+}
+
+.banner-badge-workout-vedio, .banner-badge-video-tuto {
+    position: absolute;
+    top: 200px;
+    right: -50px;
+    max-width: 206px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #393939;
+}
+
+.banner-badge-video-tuto{
+    position: absolute;
+    top: 450px;
+    left: -50px;
+    align-items: center;
+    gap: 10px;
+}
+
+.play-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #E6533C;
+}
+
+.banner-profiles h4{
+    font-size: 2.5rem;
 }
 
 /* Main Section Styles */

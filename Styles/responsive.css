@@ -1,0 +1,92 @@
+/* For small devices */
+@media  screen and (max-width: 576px) {
+    /* Nav Section */
+    .nav-links{
+        border: 0;
+    }
+
+    .nav-item{
+        display: none;
+    }
+
+    .menu-bar{
+        display: inline-block;
+    }
+
+    /* Banner Section */
+    .banner{
+        flex-direction: column;
+    }
+
+    .banner-contents{
+        margin-bottom: 30px;
+    }
+
+    /* Habits Section */
+    .habit-contents{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .habit-card{
+        max-width: 231px;
+        margin: 0 auto;
+    }
+
+    /* Run an Extra Mile Easily Section Styles */
+    .run-container{
+        margin: 0 20px;
+        flex-direction: column;
+    }
+
+    .run-contents{
+        margin-bottom: 30px;
+    }
+
+    /* BMI Calculator Section Styles */
+    .bmi-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .bmi-calculation {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .bmi-table, .bmi-calculation{
+        margin: 30px 20px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .full-width {
+        width: 90%;
+    }
+
+
+    /* Team Section Styles */
+    .team-container{
+        grid-template-columns: 1fr;
+    }
+
+    .team-profile {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Footer Section Styles */
+    .footer-items{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .footer-info, .footer-list{
+        margin: 30px 20px;
+    }
+    
+}
